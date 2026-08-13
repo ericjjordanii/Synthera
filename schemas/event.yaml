@@ -1,0 +1,9 @@
+schema_version: "1.0"
+record_type: synthera_event
+fields:
+  - event_id
+  - event_type
+  - occurred_at
+  - actor_id
+  - entity_id
+  - correlation_id

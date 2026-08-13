@@ -60,3 +60,14 @@
 - entity_id: SYN-P001-L001
 - correlation_id: RUN-SYN-P001-RUNTIME-V1-0001
 - reason: Add domain-specific source-event references so canonical state can be reconstructed unambiguously from event history.
+
+## EVT-SYN-P001-0007
+- event_type: production_started
+- occurred_at: 2026-08-13T15:30:00-05:00
+- actor_id: SYN-P001-A001
+- project_id: SYN-P001
+- entity_id: SYN-P001-L001
+- previous_state: UNLOCKED
+- new_state: PRODUCTION_IN_PROGRESS
+- correlation_id: RUN-SYN-P001-L001-PRODUCTION-0001
+- reason: Begin Day 001 production reconciliation after adopting existing Drive assets, publishing the GitHub lesson package, and identifying remaining Reel media gaps.

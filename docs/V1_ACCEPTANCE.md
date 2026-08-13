@@ -17,8 +17,8 @@ Synthera may be labeled v1.0.0 only when every required gate below is satisfied 
 - [x] State transition validation and consistency checks
 - [x] Asset discovery and reconciliation rules
 - [x] Mission orchestration planner
-- [ ] Automatic event + state persistence as one verified transition workflow
-- [ ] Automatic reconciliation/retry after partial write failure
+- [x] Automatic event + state persistence as one verified transition workflow
+- [x] Automatic reconciliation/retry after partial write failure
 
 ## EJJoftheCloud implementation
 - [x] Project manifest
@@ -34,7 +34,7 @@ Synthera may be labeled v1.0.0 only when every required gate below is satisfied 
 - [x] Runtime CI workflow
 - [x] State-transition regression tests
 - [x] Asset-discovery regression tests
-- [ ] Mission-flow regression test green in CI
+- [x] Mission-flow regression test green in CI
 - [ ] Provider/deployment regression suite
 - [ ] Rebirth drill completed from canonical sources without chat history
 

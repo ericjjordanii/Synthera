@@ -3,8 +3,8 @@ project_id: SYN-P001
 project_name: EJJoftheCloud
 current_program: 365-days-of-cloud
 current_lesson: SYN-P001-L001
-lesson_state: LEARNING
-production_state: LOCKED
-proficiency_state: NOT_ASSESSED
+lesson_state: PROFICIENT
+production_state: UNLOCKED
+proficiency_state: PASS
 updated_by: SYN-P001-A001
-source_event_id: EVT-SYN-P001-0002
+source_event_id: EVT-SYN-P001-0003

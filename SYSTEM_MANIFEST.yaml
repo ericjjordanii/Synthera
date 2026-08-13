@@ -1,0 +1,22 @@
+schema_version: "1.0"
+system_id: SYN
+system_name: Synthera
+system_type: Personal Intelligence Operating System
+owner: Eric Jordan
+horizon: "30+ years"
+ai_provider_independent: true
+
+core_principles:
+  - human_understanding_required
+  - portable_agent_specs
+  - single_canonical_operational_state
+  - versioned_schemas
+  - least_privilege
+  - event_history
+  - tested_recovery
+  - regression_testable_agents
+
+projects:
+  - id: SYN-P001
+    name: EJJoftheCloud
+    status: active

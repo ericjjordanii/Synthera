@@ -1,0 +1,63 @@
+schema_version: "1.0"
+project_id: SYN-P001
+project_name: EJJoftheCloud
+project_type: cloud_learning_and_career_system
+owner: Eric Jordan
+root_authority: Eric Jordan
+parent_system: Synthera
+horizon: "30+ years"
+
+mission: >-
+  Build, validate, preserve, and continuously expand Eric's cloud computing expertise
+  while documenting the journey publicly and producing verifiable technical evidence.
+
+primary_cloud: Azure
+
+programs:
+  - program_id: SYN-P001-PRG001
+    name: 365 Days of Cloud
+    role: foundation_training_program
+
+agents:
+  - agent_id: SYN-P001-A001
+    name: EJJ Command Center
+    role: project_manager
+  - agent_id: SYN-P001-A002
+    name: EJJ Cloud Architect
+    role: technical_curriculum_authority
+  - agent_id: SYN-P001-A003
+    name: EJJ Cloud Consultant
+    role: personal_instructor_and_proficiency_validator
+  - agent_id: SYN-P001-A004
+    name: EJJ Content Studio
+    role: public_content_production
+  - agent_id: SYN-P001-A005
+    name: EJJ Proof of Work
+    role: technical_evidence_and_portfolio
+  - agent_id: SYN-P001-A006
+    name: EJJ Auditor
+    role: periodic_quality_assurance
+  - agent_id: SYN-P001-A007
+    name: EJJ Career Intelligence
+    role: career_capability_mapping
+
+learning_policy:
+  eric_must_be_taught_before_production: true
+  assessment_required: true
+  proficiency_gate_required: true
+  remediation_required_on_failure: true
+  ai_generated_artifacts_do_not_equal_demonstrated_skill: true
+
+proof_policy:
+  fabricated_proof_forbidden: true
+  real_execution_or_validation_required_when_claimed: true
+
+canonical_assets:
+  technical_system_specification: GitHub
+  social_and_human_assets: Google Drive
+  dashboard_view: Google Sheets
+
+portability:
+  provider_independent: true
+  agent_specs_externalized: true
+  open_formats_required_for_core_state: true

@@ -1,0 +1,44 @@
+schema_version: "1.0"
+workflow_id: SYN-P001-W001
+name: EJJ Lesson Handoff
+
+required_fields:
+  identity:
+    - project_id
+    - lesson_id
+    - title
+    - season
+    - category
+  mission:
+    - objective
+    - prerequisite
+    - next_lesson
+  learning:
+    - canonical_definition
+    - key_concepts
+    - why_it_matters
+    - real_world_example
+    - cloud_example
+    - authoritative_sources
+  assessment:
+    - status
+    - score
+    - weak_areas
+    - remediation_complete
+    - proficiency_result
+  production:
+    - social_required
+    - proof_required
+    - lab_required
+    - architecture_required
+    - troubleshooting_required
+  state:
+    - production_status
+    - publishing_status
+
+rules:
+  - downstream_production_requires_proficiency_pass
+  - missing_upstream_information_must_not_be_invented
+  - technical_proof_must_correspond_to_real_work
+  - publishing_status_is_separate_from_production_status
+  - analytics_must_not_block_production_complete

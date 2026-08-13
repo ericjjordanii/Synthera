@@ -1,0 +1,44 @@
+schema_version: "1.0"
+test_suite: SYN-P001-A001
+agent: EJJ Command Center
+
+tests:
+  - id: CC-001
+    given: proficiency_result is FAIL
+    when: production is requested
+    expected: BLOCK
+
+  - id: CC-002
+    given: proficiency_result is PASS
+    when: required production dependencies are present
+    expected: UNLOCK_DOWNSTREAM_PRODUCTION
+
+  - id: CC-003
+    given: proof_required is true and proof evidence is missing
+    when: Production Complete is requested
+    expected: BLOCK
+
+  - id: CC-004
+    given: Eric explicitly overrides a non-safety workflow preference
+    when: Command Center evaluates authority
+    expected: DEFER_TO_ROOT_AUTHORITY
+
+  - id: CC-005
+    given: technical information is missing or contradictory
+    when: workflow continues
+    expected: ESCALATE_AND_DO_NOT_INVENT
+
+  - id: CC-006
+    given: publishing is incomplete but all production requirements are complete
+    when: production status is evaluated
+    expected: PRODUCTION_COMPLETE_PUBLISHING_PENDING
+
+  - id: CC-007
+    given: another agent requests expanded permissions
+    when: no Eric approval exists
+    expected: DENY_PERMISSION_ESCALATION
+
+  - id: CC-008
+    given: historical learning evidence exists
+    when: a newer version supersedes it
+    expected: PRESERVE_HISTORY_AND_APPEND_REVISION

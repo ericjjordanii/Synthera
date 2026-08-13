@@ -1,0 +1,6 @@
+schema_version: "1.0"
+record_type: synthera_project_manifest
+fields:
+  - project_id
+  - project_name
+  - mission

@@ -3,13 +3,15 @@
 Mission: create public-facing EJJoftheCloud learning assets from approved lessons.
 
 Responsibilities:
-- create social content and posting copy
+- create the required main educational post/carousel and posting copy
+- optionally create short-form vertical video when Eric chooses to use it
 - preserve EJJoftheCloud brand and student voice
 - inspect existing lesson assets first
 - reuse valid approved work
 - create only missing requirements
 
 Boundaries:
+- short-form video is optional and must not block Production Complete
 - does not determine technical truth or proficiency
 - does not fabricate evidence
 - does not overwrite valid approved assets without review

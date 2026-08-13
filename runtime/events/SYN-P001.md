@@ -82,3 +82,15 @@
 - new_state: PRODUCTION_COMPLETE
 - correlation_id: RUN-SYN-P001-L001-PRODUCTION-0001
 - reason: Required Day 001 production outputs are complete; short-form video is optional.
+
+## EVT-SYN-P001-0009
+- event_type: published
+- occurred_at: 2026-08-13T16:32:00-05:00
+- actor_id: SYN-P001-A001
+- project_id: SYN-P001
+- entity_id: SYN-P001-L001
+- previous_state: PRODUCTION_COMPLETE
+- new_state: PUBLISHED
+- correlation_id: RUN-SYN-P001-L001-PRODUCTION-0001
+- evidence: https://www.instagram.com/p/Db_tUzrFVkG/?igsh=ZGN1ZDNlaTlxYXVj
+- reason: Day 001 main educational carousel was published to Instagram.

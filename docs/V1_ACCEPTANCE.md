@@ -41,8 +41,8 @@ Synthera may be labeled v1.0.0 only when every required gate below is satisfied 
 ## Integrations
 - [x] GitHub canonical repository
 - [x] Synthera Google Drive root and EJJ project migration
-- [ ] Executable integration adapter layer for required v1 capabilities
-- [ ] Integration failure recovery tested end to end
+- [x] Executable integration adapter layer for required v1 capabilities
+- [x] Integration failure recovery tested end to end
 
 ## Release
 - [ ] v1 architecture inventory audited

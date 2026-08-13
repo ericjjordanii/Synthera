@@ -19,4 +19,7 @@ jobs:
         run: |
           grep -q "current_lesson: SYN-P001-L001" runtime/state/SYN-P001.yaml
           grep -q "source_event_id: EVT-SYN-P001-0006" runtime/state/SYN-P001.yaml
+          grep -q "EVT-SYN-P001-0006" runtime/events/SYN-P001.md
+          grep -q "EVT-SYN-P001-0004" runtime/state/SYN-P001-provenance.yaml
+          grep -q "EVT-SYN-P001-0005" runtime/state/SYN-P001-provenance.yaml
           grep -q "SYN-P001-A005" projects/SYN-P001-EJJoftheCloud/deployments/chatgpt/registry.yaml

@@ -10,7 +10,7 @@ Flow:
 5. Send the approved lesson package and reconciled asset inventory to Content Studio and Proof of Work.
 6. Content Studio builds only required missing or approved replacement public-learning assets and posting copy.
 7. Proof of Work builds only required missing or approved replacement technical documentation and evidence.
-8. Store new content assets in the configured Drive location.
+8. Store all publish-ready content artifacts for a lesson together inside that lesson's Day XXX package folder. Do not split captions, graphics, or optional final video assets into separate content silos.
 9. Store new technical artifacts in the configured GitHub location.
 10. Update canonical operational state and tracker.
 11. Return both handoffs to Command Center.
@@ -20,6 +20,7 @@ Flow:
 
 EJJoftheCloud v1 media policy:
 - Required public output: the main non-video educational post/carousel and its posting copy.
+- Each Day XXX content folder is a self-contained publish-ready package containing its images, posting copy, and any optional finished media for that day.
 - Short-form vertical video is optional and does not block Production Complete.
 - Optional short-form video may later be distributed to Instagram Reels, TikTok, YouTube Shorts, or other platforms.
 - GitHub documentation, labs, proof, architecture, and troubleshooting remain conditional on lesson requirements.

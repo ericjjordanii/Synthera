@@ -5,6 +5,7 @@ current_program: 365-days-of-cloud
 current_lesson: SYN-P001-L001
 lesson_state: PROFICIENT
 production_state: PRODUCTION_COMPLETE
+publication_state: PUBLISHED
 proficiency_state: PASS
 updated_by: SYN-P001-A001
-source_event_id: EVT-SYN-P001-0008
+source_event_id: EVT-SYN-P001-0009

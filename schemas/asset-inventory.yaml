@@ -1,0 +1,11 @@
+schema_version: "1.0"
+project_id: string
+lesson_id: string
+run_id: string
+items:
+  - requirement_id: string
+    location: string
+    status: VALID | PARTIAL | STALE | MISSING | NOT_REQUIRED
+    action: ADOPT | COMPLETE | REVIEW | CREATE | SKIP
+    artifact_id: string | null
+    notes: string | null

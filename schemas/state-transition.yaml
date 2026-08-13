@@ -1,0 +1,18 @@
+schema_version: "1.0"
+transaction_id: TX-SYN-P001-L001-0001
+project_id: SYN-P001
+entity_id: SYN-P001-L001
+correlation_id: RUN-SYN-P001-L001-0001
+actor_id: SYN-P001-A001
+expected_previous_state: LEARNING
+requested_new_state: PROFICIENCY_PASSED
+event_type: proficiency_passed
+occurred_at: "2026-08-13T14:50:00-05:00"
+reason: assessment_evidence_verified
+status: PENDING
+
+allowed_status_values:
+  - PENDING
+  - COMMITTED
+  - RECOVERY_REQUIRED
+  - REJECTED

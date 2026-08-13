@@ -1,3 +1,10 @@
 schema_version: "1.0"
 project_id: SYN-P001
+project_name: EJJoftheCloud
+current_program: 365-days-of-cloud
 current_lesson: SYN-P001-L001
+lesson_state: READY_TO_LEARN
+production_state: LOCKED
+proficiency_state: NOT_ASSESSED
+updated_by: SYN-P001-A001
+source_event_id: EVT-SYN-P001-0001

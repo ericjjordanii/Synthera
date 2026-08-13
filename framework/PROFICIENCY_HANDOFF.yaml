@@ -1,0 +1,23 @@
+schema_version: "1.0"
+record_type: proficiency_handoff
+
+required_fields:
+  lesson_id: string
+  project_id: string
+  topic: string
+  lesson_type: string
+  assessment_attempts: integer
+  score_percent: number
+  states_achieved: list
+  required_states: list
+  weak_areas: list
+  remediation_completed: boolean
+  evidence_refs: list
+  proficiency_gate: PASS_OR_FAIL
+
+rules:
+  - proficiency_gate may be PASS only when every required state is achieved
+  - score_percent alone cannot produce PASS
+  - evidence_refs are required for APPLIED and TROUBLESHOT states
+  - fabricated evidence is prohibited
+  - Command Center is the only role that unlocks downstream production after receiving PASS

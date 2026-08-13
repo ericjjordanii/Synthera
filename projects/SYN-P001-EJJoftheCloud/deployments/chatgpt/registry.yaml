@@ -1,0 +1,15 @@
+schema_version: "1.0"
+provider: ChatGPT
+project_id: SYN-P001
+deployments:
+  - deployment_id: SYN-P001-A001-D001
+    agent_id: SYN-P001-A001
+  - deployment_id: SYN-P001-A002-D001
+    agent_id: SYN-P001-A002
+  - deployment_id: SYN-P001-A003-D001
+    agent_id: SYN-P001-A003
+  - deployment_id: SYN-P001-A004-D001
+    agent_id: SYN-P001-A004
+  - deployment_id: SYN-P001-A005-D001
+    agent_id: SYN-P001-A005
+regression_tests_required: true

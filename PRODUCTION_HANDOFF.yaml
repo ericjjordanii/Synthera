@@ -1,0 +1,22 @@
+schema_version: "1.0"
+project_id: SYN-P001
+lesson_id: null
+production_unlocked: false
+proficiency_status: null
+content:
+  required: true
+  status: not_started
+  artifacts: []
+  blockers: []
+proof_of_work:
+  required: true
+  status: not_started
+  artifacts: []
+  blockers: []
+storage:
+  drive_status: not_started
+  github_status: not_started
+state_update:
+  status: not_started
+production_complete: false
+published: false

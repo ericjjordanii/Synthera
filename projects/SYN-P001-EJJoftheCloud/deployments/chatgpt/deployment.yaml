@@ -1,0 +1,7 @@
+schema_version: "1.0"
+deployment_id: SYN-P001-A001-D001
+agent_id: SYN-P001-A001
+provider: ChatGPT
+status: draft
+canonical_source: Synthera
+regression_tests_required: true

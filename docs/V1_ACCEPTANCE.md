@@ -35,8 +35,8 @@ Synthera may be labeled v1.0.0 only when every required gate below is satisfied 
 - [x] State-transition regression tests
 - [x] Asset-discovery regression tests
 - [x] Mission-flow regression test green in CI
-- [ ] Provider/deployment regression suite
-- [ ] Rebirth drill completed from canonical sources without chat history
+- [x] Provider/deployment regression suite
+- [x] Canonical-source rebirth smoke drill completed without chat history
 
 ## Integrations
 - [x] GitHub canonical repository

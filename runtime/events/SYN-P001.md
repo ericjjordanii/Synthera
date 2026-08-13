@@ -51,3 +51,12 @@
 - new_state: UNLOCKED
 - correlation_id: RUN-SYN-P001-L001-0001
 - reason: Command Center accepted the Cloud Consultant proficiency PASS.
+
+## EVT-SYN-P001-0006
+- event_type: state_snapshot_reconciled
+- occurred_at: 2026-08-13T15:10:58-05:00
+- actor_id: SYN-P001-A001
+- project_id: SYN-P001
+- entity_id: SYN-P001-L001
+- correlation_id: RUN-SYN-P001-RUNTIME-V1-0001
+- reason: Add domain-specific source-event references so canonical state can be reconstructed unambiguously from event history.

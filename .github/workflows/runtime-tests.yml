@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install pytest
-      - run: cd runtime && pytest -q
+      - run: PYTHONPATH=.:./runtime pytest -q runtime

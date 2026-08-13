@@ -9,3 +9,13 @@
 - new_state: READY_TO_LEARN
 - correlation_id: RUN-SYN-P001-L001-0001
 - reason: Initialize the first EJJoftheCloud lesson under Synthera runtime v0.
+
+## EVT-SYN-P001-0002
+- event_type: lesson_started
+- occurred_at: 2026-08-13T14:14:00-05:00
+- actor_id: SYN-P001-A001
+- project_id: SYN-P001
+- entity_id: SYN-P001-L001
+- previous_state: READY_TO_LEARN
+- new_state: LEARNING
+- correlation_id: RUN-SYN-P001-L001-0001

@@ -15,3 +15,8 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install pytest
       - run: PYTHONPATH=.:./runtime pytest -q runtime
+      - name: Canonical Context Check
+        run: |
+          grep -q "current_lesson: SYN-P001-L001" runtime/state/SYN-P001.yaml
+          grep -q "source_event_id: EVT-SYN-P001-0006" runtime/state/SYN-P001.yaml
+          grep -q "SYN-P001-A005" projects/SYN-P001-EJJoftheCloud/deployments/chatgpt/registry.yaml

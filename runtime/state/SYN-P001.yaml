@@ -4,7 +4,7 @@ project_name: EJJoftheCloud
 current_program: 365-days-of-cloud
 current_lesson: SYN-P001-L001
 lesson_state: PROFICIENT
-production_state: UNLOCKED
+production_state: PRODUCTION_IN_PROGRESS
 proficiency_state: PASS
 updated_by: SYN-P001-A001
-source_event_id: EVT-SYN-P001-0006
+source_event_id: EVT-SYN-P001-0007
